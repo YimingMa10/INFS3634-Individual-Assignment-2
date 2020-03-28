@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RestaurantDetailActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="118dp"
+        tools:layout_editor_absoluteY="-68dp">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/timeWednesday"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="TextView"
+                app:layout_constraintEnd_toEndOf="@+id/timeTuesday"
+                app:layout_constraintStart_toStartOf="@+id/timeTuesday"
+                app:layout_constraintTop_toBottomOf="@+id/timeTuesday" />
+
+            <TextView
+                android:id="@+id/wednesday"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" - Wednesday"
+                app:layout_constraintStart_toStartOf="@+id/tuesday"
+                app:layout_constraintTop_toBottomOf="@+id/tuesday" />
+
+            <TextView
+                android:id="@+id/textView21"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="Phone:"
+                android:textColor="#000000"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="@+id/textView22"
+                app:layout_constraintTop_toBottomOf="@+id/todayHour" />
+
+            <TextView
+                android:id="@+id/thursday"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" - Thursday"
+                app:layout_constraintStart_toStartOf="@+id/wednesday"
+                app:layout_constraintTop_toBottomOf="@+id/wednesday" />
+
+            <TextView
+                android:id="@+id/dayOfWeek"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginLeft="8dp"
+                android:text="TextView"
+                app:layout_constraintEnd_toEndOf="@+id/rName"
+                app:layout_constraintStart_toStartOf="@+id/textView22"
+                app:layout_constraintTop_toBottomOf="@+id/textView22" />
+
+            <TextView
+                android:id="@+id/rCuisine"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="TextView"
+                app:layout_constraintEnd_toEndOf="@+id/rName"
+                app:layout_constraintStart_toStartOf="@+id/textView2"
+                app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+            <TextView
+                android:id="@+id/monday"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginLeft="8dp"
+                android:text=" - Monday"
+                app:layout_constraintStart_toStartOf="@+id/textView3"
+                app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="Cuisine:"
+                android:textColor="#000000"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="@+id/rImage"
+                app:layout_constraintTop_toBottomOf="@+id/rImage" />
+
+            <TextView
+                android:id="@+id/timeTuesday"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="TextView"
+                app:layout_constraintEnd_toEndOf="@+id/rAddress"
+                app:layout_constraintStart_toStartOf="@+id/timeMonday"
+                app:layout_constraintTop_toBottomOf="@+id/timeMonday" />
+
+            <TextView
+                android:id="@+id/tuesday"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" - Tuesday"
+                app:layout_constraintStart_toStartOf="@+id/monday"
+                app:layout_constraintTop_toBottomOf="@+id/monday" />
+
+            <TextView
+                android:id="@+id/textView25"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="Website:"
+                android:textColor="#000000"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="@+id/textView3"
+                app:layout_constraintTop_toBottomOf="@+id/sunday" />
+
+            <TextView
+                android:id="@+id/rAddress"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="TextView"
+                android:textColor="#2196F3"
+                app:layout_constraintEnd_toEndOf="@+id/rRating"
+                app:layout_constraintStart_toStartOf="@+id/textView6"
+                app:layout_constraintTop_toBottomOf="@+id/textView6" />
+
+            <TextView
+                android:id="@+id/timeSunday"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="TextView"
+                app:layout_constraintEnd_toEndOf="@+id/timeTuesday"
+                app:layout_constraintStart_toStartOf="@+id/timeSaturday"
+                app:layout_constraintTop_toBottomOf="@+id/timeSaturday" />
+
+            <TextView
+                android:id="@+id/timeThursday"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="TextView"
+                app:layout_constraintEnd_toEndOf="@+id/timeTuesday"
+                app:layout_constraintStart_toStartOf="@+id/timeWednesday"
+                app:layout_constraintTop_toBottomOf="@+id/timeWednesday" />
+
+            <TextView
+                android:id="@+id/timeMonday"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="32dp"
+                android:layout_marginLeft="32dp"
+                android:text="TextView"
+                app:layout_constraintBottom_toBottomOf="@+id/monday"
+                app:layout_constraintEnd_toEndOf="@+id/rAddress"
+                app:layout_constraintStart_toEndOf="@+id/wednesday" />
+
+            <ImageView
+                android:id="@+id/rImage"
+                android:layout_width="180dp"
+                android:layout_height="180dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="16dp"
+                android:background="@drawable/border_black"
+                android:padding="2dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/ic_launcher_foreground" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="Introduction:"
+                android:textColor="#000000"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="@+id/rCuisine"
+                app:layout_constraintTop_toBottomOf="@+id/rCuisine" />
+
+            <TextView
+                android:id="@+id/timeFriday"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="TextView"
+                app:layout_constraintEnd_toEndOf="@+id/timeTuesday"
+                app:layout_constraintStart_toStartOf="@+id/timeThursday"
+                app:layout_constraintTop_toBottomOf="@+id/timeThursday" />
+
+            <TextView
+                android:id="@+id/todayHour"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="TextView"
+                app:layout_constraintEnd_toEndOf="@+id/rName"
+                app:layout_constraintStart_toStartOf="@+id/dayOfWeek"
+                app:layout_constraintTop_toBottomOf="@+id/dayOfWeek" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="Address:"
+                android:textColor="#000000"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="@+id/rRating"
+                app:layout_constraintTop_toBottomOf="@+id/rRating" />
+
+            <TextView
+                android:id="@+id/saturday"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" - Saturday"
+                app:layout_constraintStart_toStartOf="@+id/friday"
+                app:layout_constraintTop_toBottomOf="@+id/friday" />
+
+            <TextView
+                android:id="@+id/rName"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginRight="16dp"
+                android:fontFamily="@font/amarante"
+                android:text="TextView"
+                android:textColor="#000000"
+                android:textSize="24sp"
+                android:textStyle="bold|italic"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/rImage"
+                app:layout_constraintTop_toTopOf="@+id/rImage" />
+
+            <TextView
+                android:id="@+id/friday"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" - Friday"
+                app:layout_constraintStart_toStartOf="@+id/thursday"
+                app:layout_constraintTop_toBottomOf="@+id/thursday" />
+
+            <TextView
+                android:id="@+id/sunday"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" - Sunday"
+                app:layout_constraintStart_toStartOf="@+id/saturday"
+                app:layout_constraintTop_toBottomOf="@+id/saturday" />
+
+            <TextView
+                android:id="@+id/timeSaturday"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="TextView"
+                app:layout_constraintEnd_toEndOf="@+id/timeTuesday"
+                app:layout_constraintStart_toStartOf="@+id/timeFriday"
+                app:layout_constraintTop_toBottomOf="@+id/timeFriday" />
+
+            <TextView
+                android:id="@+id/textView22"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="Today Business Hour:"
+                android:textColor="#000000"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="@+id/rName"
+                app:layout_constraintTop_toBottomOf="@+id/rName" />
+
+            <TextView
+                android:id="@+id/rPhone"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="TextView"
+                android:textColor="#2196F3"
+                app:layout_constraintEnd_toEndOf="@+id/todayHour"
+                app:layout_constraintStart_toStartOf="@+id/textView21"
+                app:layout_constraintTop_toBottomOf="@+id/textView21" />
+
+            <TextView
+                android:id="@+id/rWebsite"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:text="Restaurant Website"
+                android:autoLink="web"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="@+id/timeSunday"
+                app:layout_constraintStart_toStartOf="@+id/textView25"
+                app:layout_constraintTop_toBottomOf="@+id/textView25" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="Business Hours:"
+                android:textColor="#000000"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="@+id/rAddress"
+                app:layout_constraintTop_toBottomOf="@+id/rAddress" />
+
+            <TextView
+                android:id="@+id/rRating"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="TextView"
+                app:layout_constraintEnd_toEndOf="@+id/rName"
+                app:layout_constraintStart_toStartOf="@+id/textView4"
+                app:layout_constraintTop_toBottomOf="@+id/textView4" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
